@@ -1,9 +1,9 @@
 ## Overview
-Slate's Pages endpoint allows you to manipulate the page object.
+Slate's BlogPost endpoint allows you to manipulate the BlogPost object.
 
 ## Fields
 
-Field                | Type        | Required?	| Notes
+Field                | Type        | Required?    | Notes
 ------------------  | --------	| --------	| ------
 ID				    | int		| yes		|
 ContextClass		| varchar	| no
@@ -32,11 +32,11 @@ Comments         | context children | Comment                           |
 
 
 
-## Create page
-`POST /pages/create`
+## Create blog post
+`POST /blog/create`
 
-##  Get one page
-`GET /pages/[page_handle]`
+##  Get one blog post
+`GET /blog/[blog_handle]`
 
-## Delete page
-`POST /pages/[page_handle]/delete`
+## Delete blog post
+`POST /blog/[blog_handle]/delete`

@@ -36,7 +36,7 @@ Relationship		| one-many		    | \\Emergence\\People\\Relationship
 ## Create
 `POST /sections/create`
 
-##  Get one course section
+##  Get one person
 `GET /people/[ID]`
 
 ## Delete 
