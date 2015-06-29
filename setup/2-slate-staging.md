@@ -35,7 +35,7 @@ users' experience. Once your new changes are perfected on the staging site, you 
 
 7. Tab to the **Parent Site** field and enter <kbd>v1.slate.is</kbd>.
 
-8. Tab to the **Parent Access Key** field and enter <kbd>o9B11mbIXY1proH7</kbd> (this is the public inheritence key for v1.slate.is).
+8. Tab to the **Parent Access Key** field and enter <kbd>o9B11mbIXY1proH7</kbd> (this is the public inheritance key for v1.slate.is).
 
 9. Under the **First User** section, fill in details for your initial account. This should be personal to you, and will give you access
    to log in and make changes to your Slate site and its code. You can create additional accounts for other developers, administrators,
