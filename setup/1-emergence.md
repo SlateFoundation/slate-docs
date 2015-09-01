@@ -11,5 +11,15 @@ disclosure: this link has a referral code that will get us some credit if you si
 ## Screencast
 <iframe width="640" height="480" src="//www.youtube.com/embed/md7_J_ol5TY?rel=0" frameborder="0" allowfullscreen></iframe>
 
+## Optional tools
+
+### wkhtmltopdf
+To generate PDF reports, you'll need to install a newer version of wkhtmltopdf:
+```
+sudo add-apt-repository ppa:pov/wkhtmltopdf
+sudo apt-get update
+sudo apt-get install wkhtmltopdf 
+```
+
 ## Next steps
 - [Creating a staging site](2-slate-staging)
