@@ -16,9 +16,9 @@ disclosure: this link has a referral code that will get us some credit if you si
 ### wkhtmltopdf
 To generate PDF reports, you'll need to install a newer version of wkhtmltopdf:
 ```
-sudo add-apt-repository ppa:pov/wkhtmltopdf
+sudo add-apt-repository ppa:ecometrica/servers
 sudo apt-get update
-sudo apt-get install wkhtmltopdf 
+sudo apt-get install wkhtmltopdf
 ```
 
 ## Next steps
