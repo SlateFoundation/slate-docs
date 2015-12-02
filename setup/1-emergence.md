@@ -14,11 +14,10 @@ disclosure: this link has a referral code that will get us some credit if you si
 ## Optional tools
 
 ### wkhtmltopdf
-To generate PDF reports, you'll need to install a newer version of wkhtmltopdf:
+To generate PDF reports, you'll need to install the latest stable wkhtmltopdf, it's best to use [a binary distributed by the project](http://wkhtmltopdf.org/downloads.html):
 ```
-sudo add-apt-repository ppa:ecometrica/servers
-sudo apt-get update
-sudo apt-get install wkhtmltopdf openssl build-essential libssl-dev xvfb
+wget https://bitbucket.org/wkhtmltopdf/wkhtmltopdf/downloads/wkhtmltox-0.13.0-alpha-7b36694_linux-trusty-amd64.deb
+sudo dpkg -i wkhtmltox-0.13.0-alpha-7b36694_linux-trusty-amd64.deb
 ```
 
 ## Next steps
